@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entered the build phases
+      - echo build stat on 'date'
+      - mvn install 
+
